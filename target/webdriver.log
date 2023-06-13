@@ -105,3 +105,5 @@ INFO 08:33:55:942 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using 
 INFO 08:33:55:960 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/yuliyalesyuk/.m2/repository/webdriver/chromedriver/mac64/114.0.5735.90/chromedriver
 INFO 08:37:32:286 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 114.0.5735.90 (since Google Chrome 114 is installed in your machine)
 INFO 08:37:32:302 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/yuliyalesyuk/.m2/repository/webdriver/chromedriver/mac64/114.0.5735.90/chromedriver
+INFO 10:47:46:250 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 114.0.5735.90 (since Google Chrome 114 is installed in your machine)
+INFO 10:47:46:268 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/yuliyalesyuk/.m2/repository/webdriver/chromedriver/mac64/114.0.5735.90/chromedriver
