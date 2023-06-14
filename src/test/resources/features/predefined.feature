@@ -87,12 +87,14 @@ Feature: Smoke steps
   @predefined9
   Scenario: Search Engine for  https://www.givewater.com/
     Given I open url "https://www.givewater.com/"
+    Then element with xpath "//div[@class='pum-content popmake-content']" should be present
+    And I click on element with xpath "//button[@class='pum-close popmake-close']"
     Then I should see page title as "Search the Web to Give Clean Water to Those in Need » giveWater Search Engine"
     Then element with xpath "//input[@id='site-search']" should be present
     Then I type "selenium webdriver" into element with xpath "//input[@id='site-search']"
     And I click on element with xpath "//button[@class='btn-search']"
     And I wait for 5 sec
-    #Then element with xpath "" should not contain text "selenium webdriver"
+    Then element with xpath "//div[@class='layout__mainline']" should not contain text "selenium webdriver"
 
   @predefined10
   Scenario: Search Engine for https://ekoru.org/
